@@ -1,0 +1,245 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Styles for containerblog1 */
+.containerblog1 {
+    margin: auto; /* Center container horizontally */
+    text-align: center; /* Center text */
+    padding-top: 0.625rem; /* pt-5 */
+    padding-bottom: 0.625rem; /* pb-5 */
+}
+
+.containerblog1 h1 {
+    font-size: 3.125rem; /* text-5xl */
+    font-weight: bold; /* font-bold */
+}
+
+/* Styles for containerblog2 */
+.containerblog2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem; /* gap-10 */
+    max-width: 64rem; /* mx-auto */
+    margin: 0 auto; /* Center container horizontally */
+    padding-left: 0.3125rem; /* px-5 */
+    padding-right: 0.3125rem; /* px-5 */
+    border-bottom: 1px solid #4a5568; /* border-b border-gray-700 */
+    padding-top: 2.75rem; /* py-11 */
+    padding-bottom: 2.75rem; /* py-11 */
+}
+
+@media (min-width: 640px) {
+    .containerblog2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* sm:grid grid-cols-2 */
+    }
+}
+
+/* Styles for div1 */
+.containerblog2 .div19 img {
+    max-width: 100%;
+    max-height: 400px;
+    
+}
+
+/* Styles for div2 */
+.containerblog2 .div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Styles for headings inside div2 */
+.containerblog2 .div2 h2 {
+    color: #4a5568; /* text-gray-700 */
+    font-weight: bold; /* font-bold */
+    font-size: 2.5rem; /* text-4xl */
+}
+
+/* Styles for author inside div2 */
+.containerblog2 .div2 span {
+    color: #4a5568; /* text-gray-700 */
+    font-size: 1rem; /* text-l */
+     padding-top: 0.5rem; /*pb-2 */
+}
+
+/* Styles for italic text inside div2 */
+.containerblog2 .div2 .italicon {
+    font-style: italic;
+    color: #718096; /* text-gray-500 */
+}
+
+/* Styles for paragraph inside div2 */
+.containerblog2 .div2 p {
+    color: #4a5568; /* text-gray-700 */
+    font-size: 1.125rem; /* text-l */
+    padding: 1rem; /* py-8 */
+    line-height: 1.5; /* leading-6 */
+}
+
+/* Styles for link inside div2 */
+.containerblog2 .div2 a {
+    background-color: #4a5568; /* bg-gray-700 */
+    color: #f7fafc; /* text-gray-100 */
+    padding: 0.75rem 1rem; /* py-3 px-4 */
+    border-radius: 0.25rem; /* rounded-lg */
+    font-weight: bold; /* font-bold */
+    text-transform: uppercase; /* uppercase */
+    /* margin-right: 12.5rem; */
+    text-decoration: none;
+    margin: 160px;
+}
+
+.containerblog2 .div2 a:hover {
+    background-color: #2d3748; /* hover:bg-gray-900 */
+}
+
+.nav{
+    background-color: #8a8e92;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 26px;
+    color: aqua;
+    
+}
+
+.nav a:hover{
+    color:#edf1f4 ;
+
+}
+
+.yorblog22{
+    display: flex;
+    margin-right: 50px;
+    justify-content: end;
+}
+.yorblog a{
+    text-decoration: none;
+    font-size: large;
+    border: #2d3748 1px solid;
+    padding: 12px;
+}
+
+.yorblog a:hover{
+    background: #2d3748;
+    color: wheat;
+}
+
+
+
+
+
+.myformart {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.myformart form div {
+    margin-bottom: 15px;
+}
+
+.myformart label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.myformart input[type="text"],
+.myformart input[type="image"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.myformart input[type="image"] {
+    max-width: 100px; /* Set a maximum width for the image input */
+    height: auto;
+}
+
+.myformart button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.myformart button:hover {
+    background-color: #45a049;
+}
+
+.taitlcreat{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.eroorm {
+    color: #ff0000; 
+    font-size: 14px; 
+    margin-top: 5px; 
+}
+
+.show h1{
+    display: flex;
+   justify-content: center;
+   margin: 20px;
+    
+}
+
+.contentshow{
+    display: flex;
+    gap: 50px;
+    margin: 0 160px;
+}
+.contentshow img{
+    width: auto;
+    max-height: 450px;
+}
+.contentshow p{
+    padding-top: 20px;
+}
+
+.sopo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sopo .italicon{
+    font-style: italic;
+    color: #718096; 
+    margin-left: 9px;
+   
+    
+}
+
+.sopo .update{
+    color: #00ff44;
+    margin: 0 0 60px 600px;
+    border: #2d3748 solid 1px;
+    padding: 9px;
+    background-color: #eceff4;
+}
+
+.sopo .deletart{
+    color: #ff0000;
+    border: #2d3748 solid 1px;
+    padding: 9px;
+    margin: 0 0 60px 80px;
+}
